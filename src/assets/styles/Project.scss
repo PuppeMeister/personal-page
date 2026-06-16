@@ -20,6 +20,12 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
   
+.article-date {
+    font-size: 14px;
+    opacity: 0.7;
+    margin: 4px 0 8px;
+}
+
 .zoom {
     border-radius: 5px;
     transition: transform .2s;

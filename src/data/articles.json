@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-06-11T04:18:12.508Z",
+  "source": "https://medium.com/feed/@rinnadia",
+  "articles": [
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "link": "https://medium.com/@rinnadia/test-2-376edda7d545",
+      "pubDate": "2026-05-14T03:56:16.000Z",
+      "thumbnail": null,
+      "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut…",
+      "categories": []
+    },
+    {
+      "title": "Lorem ipsum",
+      "link": "https://medium.com/@rinnadia/test-1-29b13d7957db",
+      "pubDate": "2026-05-14T03:54:37.000Z",
+      "thumbnail": null,
+      "snippet": "Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco…",
+      "categories": []
+    }
+  ]
+}

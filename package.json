@@ -29,6 +29,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "fetch:articles": "node scripts/fetch-articles.js",
+    "prebuild": "npm run fetch:articles",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

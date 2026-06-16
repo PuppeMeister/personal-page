@@ -15,6 +15,8 @@ function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
+        <p>Coming soon...</p>
+        {/*
         <div className="projects-grid">
             <div className="project">
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -67,6 +69,7 @@ function Project() {
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
             </div>
         </div>
+        */}
     </div>
     );
 }
