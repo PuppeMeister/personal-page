@@ -18,6 +18,10 @@
 .skills-container .skills-grid .skill {
     align-items: center;
     text-align: left;
+
+    p {
+        text-align: justify;
+    }
 }
   
 .chip {

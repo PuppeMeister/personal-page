@@ -50,37 +50,40 @@ function Expertise() {
                 <div className="skill">
                     {/* <FontAwesomeIcon icon={faReact} size="3x"/> */}
                     <h3>End-to-end Engineering</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>Build complete systems across the stack, from backend architecture to frontend interfaces. I've owned features end-to-end — from infrastructure feasibility study and investment cost analysis through technology-stack evaluation to implementation — and built applications from scratch. I work primarily within engineering teams, owning my components through to delivery.</p>
+                    {/*
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="skill">
                     {/* <FontAwesomeIcon icon={faDocker} size="3x"/> */}
                     <h3>Data and ETL Engineering</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>I design and maintain data pipelines that move and transform data reliably at scale. Across telecom, finance, and enterprise, I've reengineered existing services and built new pipelines — automating data extraction from diverse sources, implementing new business workflows in a billing ETL pipeline serving 170M+ subscribers, and automating large-scale report generation</p>
+                    {/*
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="skill">
                     {/* <FontAwesomeIcon icon={faPython} size="3x"/> */}
                     <h3>Applied AI and ML and Research</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>I work at the intersection of applied AI and research. My graduate research explored the convergence of AI applications and security frameworks, and that's where my conviction took shape: advances in AI matter most when they reach the real world. I focus on building AI solutions that serve genuine, everyday needs.</p>
+                    {/*
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
