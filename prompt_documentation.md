@@ -258,3 +258,11 @@ This turns both the subtitle text and the social icons (which inherit `color`) b
 ```
 
 The `.light-mode` class on `.main-container` scopes it, so the divider is black in light mode and stays white in dark mode. Not live until `npm run deploy`.
+
+---
+
+## 2026-06-18
+
+**Prompt:** How can I reduce gap between Rin Nadia and the words below? I've already add margin-bottom in h1 of main.scss but it seems not working.
+
+**Response:** Diagnosed that the gap was caused by the `h1`'s default `line-height` (~1.2), not margin. At `font-size: 5em` the default line-height creates a large empty band below the text baseline, so the `margin-bottom: -10px` was negligible by comparison. Fix in `src/assets/styles/Main.scss`: added `line-height: 1;` to the `.about-section .content h1` rule and reset `margin-bottom` to `0px`. Lower the line-height further (e.g. `0.9`) to tighten the gap even more.
