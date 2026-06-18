@@ -120,3 +120,28 @@ A React 18 + TypeScript single-page portfolio site for Rin Nadia, built on Creat
 - `any` typed props on `Navigation` (old prop-drilling, no Context)
 - `Publication` and `Expertise` are intentional duplicates (acknowledged in CLAUDE.md) but Publication has not been updated with real content
 - `form` ref in `Contact.tsx` typed as `useRef()` without a generic type parameter
+
+---
+
+## 2026-06-18
+
+**Prompt:** how to change the tab icon of the project?
+
+**Response:** Replace `public/favicon.ico` with your desired icon file. The browser picks it up automatically — no code changes needed since `public/index.html` already references `%PUBLIC_URL%/favicon.ico`. To prepare the icon, use a tool like favicon.io to convert a PNG to `.ico`. Also consider updating `public/logo192.png` and `public/logo512.png` for PWA icons. After replacing, run `npm run deploy` to publish.
+
+---
+
+**Prompt:** check on the project, why after footer section there is a slight white space, I want to eliminate it!
+
+**Respon
+---
+
+## 2026-06-18
+
+**Prompt:** Asked about using Yuji Sato's react-portfolio-template (https://yujisatojr.github.io/react-portfolio-template/) and how to give proper credit.
+
+**Response:** Confirmed the template is MIT licensed (Copyright © 2022 Yuji Sato) and that the `LICENSE` file is already present in the repo, satisfying MIT's only hard requirement (preserving the copyright notice + license text). Everything beyond that is courtesy. Recommended: (1) add a credit line to the currently-empty `README.md`, e.g. "Built on the React Portfolio Template by Yuji Sato, used under the MIT License" with link; (2) optionally a small footer credit on the live site; (3) tidy-up — rename `package.json` "name" from `react-portfolio-template` to the user's own project name (cosmetic, unrelated to licensing). Offered to make these changes.
+
+**Prompt:** Should I fork his repo?
+
+**Response:** Advised against forking. Forking is for tracking upstream updates or contributing back, neither of which applies to a heavily-customized personal portfolio (already diverged via Vite migration, Medium RSS, own content). A fork is permanently labeled "forked from..." and shares the upstream network graph, which is awkward for what is now the user's own site; the existing standalone `personal-page` repo has clean independent history. Forking is irrelevant to licensing — MIT credit is satisfied by keeping the LICENSE file. Recommended: keep the standalone repo, add a README credit line, and star the original repo to show appreciation.
