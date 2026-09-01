@@ -1,0 +1,21 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "coreCompetencies": "Core Competencies",
+    "experience": "Professional Experience",
+    "articles": "Articles",
+    "projectProto": "Projects and Portfolios",
+    "cv": "CV"
+  },
+  "mainHeadline": "Software Engineering, Digital Infrastructure, AI Transformation",
+  "coreCompetencies": {
+    "sectionTitle":"Core Competencies",
+    "firstColTitle":  "End-to-end Engineering",
+    "firstColContent":  "Build complete systems across the stack, from backend architecture to frontend interfaces. I've owned features end-to-end — from infrastructure feasibility study and investment cost analysis through technology-stack evaluation to implementation — and built applications from scratch. I work primarily within engineering teams, owning my components through to delivery.",
+    "secondColTitle": "Data and ETL Engineering",
+    "secondColContent": "I design and maintain data pipelines that move and transform data reliably at scale. Across telecom, finance, and enterprise, I've reengineered existing services and built new pipelines — automating data extraction from diverse sources, implementing new business workflows in a billing ETL pipeline serving 170M+ subscribers, and automating large-scale report generation",
+    "thirdColTitle": "Applied AI and ML and Research",
+    "thirdColContent": "I work at the intersection of applied AI and research. My graduate research explored the convergence of AI applications and security frameworks, and that's where my conviction took shape: advances in AI matter most when they reach the real world. I focus on building AI solutions that serve genuine, everyday needs."
+  }
+}
